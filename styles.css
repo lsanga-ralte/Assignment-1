@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #000000;
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 10px 30px 10px 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.home-section {
+    height: 100vh;
+    background: url('home.avif') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(211, 205, 198);
+}
+
+.home-content h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.home-content p {
+    font-size: 30px;
+}
+
+.about-section {
+    height: 100vh;
+    background: url('about.avif') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    width: 60%;
+    height: 60%;
+    background-color: rgb(56, 54, 54);
+    text-align: center;
+    color: #fff;
+}
+
+.about-content h1 {
+    font-size: 40px;
+    padding: 30px;
+}
+
+.about-content p {
+    padding: 30px;
+}
+
+.portfolio-section {
+    height: 100vh;
+    background-color: rgb(44, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-content {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #0c0c0c;
+}
+
+.first-card {
+    width: 25%;
+    height: 70%;
+    background-color: #fff;
+}
+
+.second-card {
+    width: 25%;
+    height: 70%;
+    background-color: #fff;
+}
+
+.third-card {
+    width: 25%;
+    height: 70%;
+    background-color: #fff;
+}
+
+.first-card h1, .second-card h1, .third-card h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.first-card p, .second-card p, .third-card p {
+    text-align: justify;
+    padding: 30px 20px 0px 20px;
+}
+
+footer {
+    height: 150px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    font-size: 20px;
+}
+
+.contact-content a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
